@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Develop/Git/Intro-OOP/Proeftoets/DigitaleTicket.h
+
+E:/Develop/Git/Intro-OOP/Proeftoets/PapierenTicket.h
+Ticket.h
+E:/Develop/Git/Intro-OOP/Proeftoets/Ticket.h
+
+E:/Develop/Git/Intro-OOP/Proeftoets/Ticket.h
+
+E:/Develop/Git/Intro-OOP/Proeftoets/TicketService.h
+Ticket.h
+E:/Develop/Git/Intro-OOP/Proeftoets/Ticket.h
+DigitaleTicket.h
+E:/Develop/Git/Intro-OOP/Proeftoets/DigitaleTicket.h
+PapierenTicket.h
+E:/Develop/Git/Intro-OOP/Proeftoets/PapierenTicket.h
+iostream
+-
+vector
+-
+
+E:/Develop/Git/Intro-OOP/main.cpp
+iostream
+-
+Proeftoets/DigitaleTicket.h
+E:/Develop/Git/Intro-OOP/Proeftoets/DigitaleTicket.h
+Proeftoets/PapierenTicket.h
+E:/Develop/Git/Intro-OOP/Proeftoets/PapierenTicket.h
+Proeftoets/TicketService.h
+E:/Develop/Git/Intro-OOP/Proeftoets/TicketService.h
+cassert
+-
+
