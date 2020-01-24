@@ -17,16 +17,21 @@ class TicketService {
 private:
 
     string bureau;
-     vector<Ticket*>  registratie ;
+    vector<Ticket *> registratie;
     int aantalAangemaakteTickets;
 
 public:
     TicketService(string);
-    void scanTicket(Ticket*);
-    void voegTicketToe( Ticket *)  ;
+
+    void scanTicket(Ticket *);
+
+    void voegTicketToe(Ticket *);
+
     int aantalTickets() const;
+
     int aantalNietIngechecked() const;
-    Ticket* copyDigitaleTicket(DigitaleTicket*);
+
+    Ticket *copyDigitaleTicket(DigitaleTicket *);
 };
 
 #endif //INTRO_OOP___HERKANSING__TICKETSERVICE_H

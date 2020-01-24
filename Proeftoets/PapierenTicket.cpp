@@ -4,16 +4,19 @@
 
 #include "PapierenTicket.h"
 
+
 PapierenTicket::PapierenTicket(int barcode, int ticketnummer) : Ticket(ticketnummer), barcode(barcode) {
 
 }
 
 bool PapierenTicket::scan() {
     // Iets met Ticketservices
-    if(!isIngechecked()) {
+    if (!isIngechecked()) {
+        std::cout << "TICKET GESCANNED" << "\n";
         resetIngechecked();
         return true;
-    }
-    else
+    } else {
+        std::cout << "TICKET IS AL GESCANNED" << "\n";
         return false;
+    }
 }

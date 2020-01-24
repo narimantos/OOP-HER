@@ -12,7 +12,8 @@ private:
     int barcode;
 public:
     PapierenTicket(int barcode, int ticketnummer);
-    bool scan() ;
+
+    bool scan();
 };
 
 

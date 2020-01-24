@@ -70,7 +70,7 @@ int main()
 
 1. Wat is in dit voorbeeld het gevolg wanneer de ```=0``` achter de methode ```virtual bool scan() = 0;``` van de klasse Ticket wordt weggelaten?<details> <summary></summary> <p> ``` Dan verwacht de compiler een implementatie van de functie binnen de class. In dit eval zou de class Ticket de virtuele functie bevatten, als daar de =0 weggehaald wordt, verwacht de compiler dat er in de Ticket.cpp een implementatie van is. C++ heeft geen "abstract" syntax zoals Java, om een class abstract te maken. Maar wel door functies abstract te maken en in een andere class te implementeren``` </details>
 
-1. Wat is in dit voorbeeld het gevolg wanneer de methoden van de klasse ```TicketService``` onder ```private```: vallen.<details> <summary></summary> ``` ---- ``` </details>
+1. Wat is in dit voorbeeld het gevolg wanneer de methoden van de klasse ```TicketService``` onder ```private```: vallen.<details> <summary></summary> ``` Dan zouden de functies die in de main worden aangeroepen in van de klasse TicketSerice niet compilen  ``` </details>
 
 1. Geef de implementatie (programmacode) van constructor van de klasse ```Ticket```.<details> <summary></summary> ``` ---- ``` </details>
 

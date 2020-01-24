@@ -5,19 +5,20 @@
 #include "TicketService.h"
 
 
-TicketService::TicketService(string b): bureau(b) {
+TicketService::TicketService(string b) : bureau(b) {
 
 }
 
+void TicketService::scanTicket(Ticket *t) {
 
-void TicketService::scanTicket(Ticket * t) {
-    if(!(t->scan()))
-    {
+    if (!(t->isIngechecked())) {
         t->scan();
-    }
+    } else
+        std:
+        cout << "TICKET AL INGECHECKED!!" << "\n";
 }
 
-void TicketService::voegTicketToe( Ticket * t) {
+void TicketService::voegTicketToe(Ticket *t) {
     registratie.push_back(t);
 }
 
@@ -28,16 +29,12 @@ int TicketService::aantalTickets() const {
 
 int TicketService::aantalNietIngechecked() const {
     int i = 0;
-    for(Ticket *a : registratie)
-        if(a->isIngechecked())
-        {
+    for (Ticket *a : registratie)
+        if (a->isIngechecked()) {
             // do nothing
-        }
-    else
-        {
+        } else {
             i++; // add not checked in
         }
-
     return i; // return total not checked in
 }
 

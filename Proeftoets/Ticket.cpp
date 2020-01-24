@@ -5,17 +5,17 @@
 #include "Ticket.h"
 
 int Ticket::ticketNummer() const {
-    return ticketnummer ;
+    return ticketnummer;
 }
 
 bool Ticket::isIngechecked() const {
-    return ingechecked ;
+    return ingechecked;
 }
 
 void Ticket::resetIngechecked() {
-    ingechecked = true ;
+    ingechecked = true;
 }
 
-Ticket::Ticket(int ticketnummer): ticketnummer(ticketnummer)  {
-    ingechecked= false ;
+Ticket::Ticket(int ticketnummer) : ticketnummer(ticketnummer) {
+    ingechecked = false;
 }
