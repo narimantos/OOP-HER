@@ -16,7 +16,7 @@ public:
     int ticketNummer() const ;
     bool isIngechecked() const ;
     void resetIngechecked() ;
-    virtual bool scan() = 0;
+    virtual bool scan() {return 0; };
 };
 
 

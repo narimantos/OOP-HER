@@ -1,4 +1,4 @@
-# Install script for directory: E:/Develop/Git/Intro-OOP
+# Install script for directory: E:/Develop/Git/OOP-HER
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Develop/Git/Intro-OOP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Develop/Git/OOP-HER/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

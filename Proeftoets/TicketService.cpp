@@ -17,7 +17,7 @@ void TicketService::scanTicket(Ticket * t) {
     }
 }
 
-void TicketService::voegTicketToe(Ticket * t) {
+void TicketService::voegTicketToe( Ticket * t) {
     registratie.push_back(t);
 }
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Develop/Git/Intro-OOP/Proeftoets/DigitaleTicket.cpp" "E:/Develop/Git/Intro-OOP/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/DigitaleTicket.cpp.obj"
-  "E:/Develop/Git/Intro-OOP/Proeftoets/PapierenTicket.cpp" "E:/Develop/Git/Intro-OOP/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.obj"
-  "E:/Develop/Git/Intro-OOP/Proeftoets/Ticket.cpp" "E:/Develop/Git/Intro-OOP/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/Ticket.cpp.obj"
-  "E:/Develop/Git/Intro-OOP/Proeftoets/TicketService.cpp" "E:/Develop/Git/Intro-OOP/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj"
-  "E:/Develop/Git/Intro-OOP/main.cpp" "E:/Develop/Git/Intro-OOP/cmake-build-debug/CMakeFiles/Intro_OOP.dir/main.cpp.obj"
+  "E:/Develop/Git/OOP-HER/Proeftoets/DigitaleTicket.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/DigitaleTicket.cpp.obj"
+  "E:/Develop/Git/OOP-HER/Proeftoets/PapierenTicket.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.obj"
+  "E:/Develop/Git/OOP-HER/Proeftoets/Ticket.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/Ticket.cpp.obj"
+  "E:/Develop/Git/OOP-HER/Proeftoets/TicketService.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj"
+  "E:/Develop/Git/OOP-HER/main.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

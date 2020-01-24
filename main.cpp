@@ -4,40 +4,6 @@
 #include "Proeftoets/TicketService.h"
 #include <cassert>
 
-struct Breuk{
-    int deler;
-    int noemer;
-};
-
-void f(const int* p1, int* p2)
-{
-    int i = *p1;         // Get the (original) value of *p1
-    //*p2 = 7;             // If p1 == p2, this will also change *p1
-    int j = *p1;         // Get the (possibly new) value of *p1
-    if (i != j) {
-        std::cout << "*p1 changed, but it didn't change via pointer p1!\n";
-        assert(p1 == p2);  // This is the only way *p1 could be different
-    }
-    else{
-
-        std:cout << "nothing changed";
-    }
-}
-
-void swap(int p, int q)
-{
-    int t =p;
-    p=q;
-    q=t;
-
-    std::cout << "P: " << p << " Was :" << q << std::endl ;
-    std::cout << "Q: " << q << " Was :" << p << std::endl ;
-
-}
-
-
-
-
 int main() {
 
 
