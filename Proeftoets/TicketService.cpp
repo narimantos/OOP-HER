@@ -41,3 +41,11 @@ int TicketService::aantalNietIngechecked() const {
 Ticket *TicketService::copyDigitaleTicket(DigitaleTicket *) {
     return nullptr;
 }
+
+
+
+
+
+
+
+

@@ -18,12 +18,17 @@ private:
 
     string bureau;
     vector<Ticket *> registratie;
-    int aantalAangemaakteTickets;
+    int aantalAangemaakteTickets = 0;
+    TicketService& operator = (const TicketService &t)
+    {
+        return *this;
+    };
 
 public:
     TicketService(string);
 
     void scanTicket(Ticket *);
+
 
     void voegTicketToe(Ticket *);
 
@@ -33,5 +38,7 @@ public:
 
     Ticket *copyDigitaleTicket(DigitaleTicket *);
 };
+
+
 
 #endif //INTRO_OOP___HERKANSING__TICKETSERVICE_H

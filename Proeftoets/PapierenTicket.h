@@ -8,12 +8,12 @@
 #include "Ticket.h"
 
 class PapierenTicket : public Ticket {
-private:
-    int barcode;
 public:
     PapierenTicket(int barcode, int ticketnummer);
 
     bool scan();
+private:
+    int barcode;
 };
 
 

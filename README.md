@@ -80,17 +80,96 @@ int main()
 
 1. Kan het volgende statement in de main uitgevoerd worden? Geef een korte uitleg. ```Ticket& tc(pt1);```<details> <summary></summary> ``` Ja zo wordt tc een refentie naar pt1.   zou ook ->PapierenTicket *tc(&pt1); ``` </details>
 
-1. Kan het volgende statement in de main uitgevoerd worden? Geef een korte uitleg. ```Ticket tc2=pt1;```<details> <summary></summary> ``` ---- ``` </details>
+1. Kan het volgende statement in de main uitgevoerd worden? Geef een korte uitleg. ```Ticket tc2=pt1;```<details> <summary></summary> ``` ja dat kan, alleen krijg je hier te maken met het slicing probleem. Papieren ticket weet dat hij een ticket is anders om niet. Dus alles wat niet binnen de class ticket valt wordt 'weggesliced' ``` </details>
 
-1. Pas de ```operator=``` zodanig aan, zodat bij het uitvoeren van het statement ```TicketService tserv2=ts;``` beide ticketservices identiek zijn maar wel hun eigen tickets hebben.<details> <summary></summary> ``` ---- ``` </details>
+1. Pas de ```operator=``` zodanig aan, zodat bij het uitvoeren van het statement ```TicketService tserv2=ts;``` beide ticketservices identiek zijn maar wel hun eigen tickets hebben.<details> <summary></summary> ```     TicketService& operator = (const TicketService &t)
+    {
+        return *this;
+    }; ``` </details>
 
-1.  Geef de implementatie (programmacode) van de methode ```void voegTicketToe(Ticket*);``` van de klasse ```TicketService```<details> <summary></summary> ``` ---- ``` </details>
+1.  Geef de implementatie (programmacode) van de methode ```void voegTicketToe(Ticket*);``` van de klasse ```TicketService```<details> <summary></summary> ``` void TicketService::voegTicketToe(Ticket *t) {
+    registratie.push_back(t); }``` </details>
 
-1.  Geef de implementatie (programmacode) van de constructor van de klasse ```PapierenTicket```.<details> <summary></summary> ``` ---- ``` </details>
+1.  Geef de implementatie (programmacode) van de constructor van de klasse ```PapierenTicket```.<details> <summary></summary> ``` PapierenTicket::PapierenTicket(int barcode, int ticketnummer) : Ticket(ticketnummer), barcode(barcode) {} ``` </details>
 
-1.  De methode ```int aantalNietIngechecked()const;``` van de klasse ```TicketService``` geeft het aantal tickets die niet ingechecked zijn mee terug. Geef de implementatie (programmacode) van de methode ```int aantalNietIngechecked()const;``` van de klasse ```TicketService```.<details> <summary></summary> ``` ---- ``` </details>
+1.  De methode ```int aantalNietIngechecked()const;``` van de klasse ```TicketService``` geeft het aantal tickets die niet ingechecked zijn mee terug. Geef de implementatie (programmacode) van de methode ```int aantalNietIngechecked()const;``` van de klasse ```TicketService```.<details> <summary></summary> ``` int TicketService::aantalNietIngechecked() const {
+    int i = 0;
+    for (Ticket *a : registratie)
+        if (a->isIngechecked()) {
+            // do nothing
+        } else {
+            i++; // add not checkedin
+        }
+    return i; // return total not checked in} ``` </details>
 
 1.  Wanneer de klasse ```TicketService``` veralgemeniseerd wordt in b.v. de klasse ```ServiceUitgave``` zodat deze ook gebruikt kan gaan worden voor verschillende klassen. Zal de klasse ```TicketService``` moeten worden aangepast in bijvoorbeeld een klasse ```ServiceUitgave```. Verander de klasse ``` TicketService ``` in een klasse``` ServiceUitgave```, zodat deze ook geschikt is voor objecten van een andere klasse dan ```Ticket```. Geef ook een voorbeeld in code hoe een object van de klasse ```ServiceUitgave``` aangemaakt wordt.<details> <summary></summary> ``` ---- ``` </details>
+
+```cpp
+//
+// Created by narim on 25/01/2020.
+//
+
+#ifndef INTRO_OOP_SERVICEUITGAVE_H
+#define INTRO_OOP_SERVICEUITGAVE_H
+#include "Ticket.h"
+#include "DigitaleTicket.h"
+#include "PapierenTicket.h"
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+
+
+template <typename T> class ServiceUitgave {
+private:
+
+    vector<T *> registratie;
+    int aantalAangemaakteTickets = 0;
+    string bureau;
+    ServiceUitgave& operator = (const ServiceUitgave &t)
+    {
+        return *this;
+    };
+
+public:
+
+    ServiceUitgave<T>(string b): bureau(b){
+
+    }
+    void scanTicket(T* p){
+        if (!(p->isIngechecked())) {
+            p->scan();
+        } else
+            std:
+            cout << "TICKET AL INGECHECKED!!" << "\n";
+    }
+    void voegTicketToe(T* p){
+        registratie.push_back(p);
+    }
+    int aantalTickets() const{
+        return registratie.size();
+    }
+    int aantalNietIngechecked() const{
+
+        int i = 0;
+        for (T *a : registratie)
+            if (a->isIngechecked()) {
+                // do nothing
+            } else {
+                i++; // add not checked in
+            }
+        return i; // return total not checked in
+    }
+//    T *copyDigitaleTicket(T *);
+//
+    ServiceUitgave();
+};
+
+#endif //INTRO_OOP_SERVICEUITGAVE_H
+
+```
 
 # opgave 2
 Een hacker wil een papieren ticket kopiëren. Dat kan door het resetten van tickets van bezoekers die al binnen zijn.
@@ -101,24 +180,3 @@ wordt de ticket gekopieerd. Hieronder het scenario voor een ticket dat al ingech
 ![alt](./Images/Sequentie-diagram.PNG)
 1. Geef de implementatie (programmacode) van de methode ```Ticket* copyPapierenTicket(PapierenTicket*)``` van de klasse ```TicketService``` (10 punten) 
 
----
-
-TEST  plantuml
-
-```plantuml
-!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
-skinparam defaultTextAlignment right
-!include ICONURL/common.puml
-!include ICONURL/font-awesome-5/gitlab.puml
-!include ICONURL/font-awesome-5/java.puml
-!include ICONURL/font-awesome-5/rocket.puml
-!include ICONURL/font-awesome/newspaper_o.puml
-FA_NEWSPAPER_O(news,good news!,node) #White {
-FA5_GITLAB(gitlab,GitLab.com,node) #White
-FA5_JAVA(java,PlantUML,node) #White
-FA5_ROCKET(rocket,Integrated,node) #White
-}
-gitlab ..> java
-java ..> rocket
-@enduml
-``` 
