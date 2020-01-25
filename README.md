@@ -70,14 +70,15 @@ int main()
 
 1. Wat is in dit voorbeeld het gevolg wanneer de ```=0``` achter de methode ```virtual bool scan() = 0;``` van de klasse Ticket wordt weggelaten?<details> <summary></summary> <p> ``` Dan verwacht de compiler een implementatie van de functie binnen de class. In dit eval zou de class Ticket de virtuele functie bevatten, als daar de =0 weggehaald wordt, verwacht de compiler dat er in de Ticket.cpp een implementatie van is. C++ heeft geen "abstract" syntax zoals Java, om een class abstract te maken. Maar wel door functies abstract te maken en in een andere class te implementeren``` </details>
 
-1. Wat is in dit voorbeeld het gevolg wanneer de methoden van de klasse ```TicketService``` onder ```private```: vallen.<details> <summary></summary> ``` Dan zouden de functies die in de main worden aangeroepen in van de klasse TicketSerice niet compilen  ``` </details>
+1. Wat is in dit voorbeeld het gevolg wanneer de methoden van de klasse ```TicketService``` onder ```private```: vallen.<details> <summary></summary> ```cpp Dan zouden de functies die in de main worden aangeroepen in van de klasse TicketSerice niet compilen  ``` </details>
 
-1. Geef de implementatie (programmacode) van constructor van de klasse ```Ticket```.<details> <summary></summary> ``` ---- ``` </details>
+1. Geef de implementatie (programmacode) van constructor van de klasse ```Ticket```.<details> <summary></summary> ```cpp Ticket::Ticket(int ticketnummer) : ticketnummer(ticketnummer) {
+    ingechecked = false;} ``` </details>
 
 
-1. Is in de code van de main routine sprake van een ```“memory leak”```, geef een korte uitleg.<details> <summary></summary> ``` ---- ``` </details>
+1. Is in de code van de main routine sprake van een ```“memory leak”```, geef een korte uitleg.<details> <summary></summary> ``` Ja, het gebruik van 'new' in de functie zorgt voor dynamic storage duration, en moet je het object zelf opruimen. In dit geval wordt het object nooit opgeruimd.  ``` </details>
 
-1. Kan het volgende statement in de main uitgevoerd worden? Geef een korte uitleg. ```Ticket& tc(pt1);```<details> <summary></summary> ``` ---- ``` </details>
+1. Kan het volgende statement in de main uitgevoerd worden? Geef een korte uitleg. ```Ticket& tc(pt1);```<details> <summary></summary> ``` Ja zo wordt tc een refentie naar pt1.   zou ook ->PapierenTicket *tc(&pt1); ``` </details>
 
 1. Kan het volgende statement in de main uitgevoerd worden? Geef een korte uitleg. ```Ticket tc2=pt1;```<details> <summary></summary> ``` ---- ``` </details>
 
