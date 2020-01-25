@@ -1,1 +1,5 @@
 .idea/workspace.xml
+*.obj
+*.cmake
+
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/main.cpp.obj
