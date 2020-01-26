@@ -121,13 +121,83 @@ CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.s"
 	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Develop\Git\OOP-HER\Proeftoets\TicketService.cpp -o CMakeFiles\Intro_OOP.dir\Proeftoets\TicketService.cpp.s
 
+CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj: CMakeFiles/Intro_OOP.dir/flags.make
+CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj: ../Proeftoets/ServiceUitgave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Intro_OOP.dir\Proeftoets\ServiceUitgave.cpp.obj -c E:\Develop\Git\OOP-HER\Proeftoets\ServiceUitgave.cpp
+
+CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.i"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Develop\Git\OOP-HER\Proeftoets\ServiceUitgave.cpp > CMakeFiles\Intro_OOP.dir\Proeftoets\ServiceUitgave.cpp.i
+
+CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.s"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Develop\Git\OOP-HER\Proeftoets\ServiceUitgave.cpp -o CMakeFiles\Intro_OOP.dir\Proeftoets\ServiceUitgave.cpp.s
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj: CMakeFiles/Intro_OOP.dir/flags.make
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj: ../SlicingProbleem/Hond.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\Hond.cpp.obj -c E:\Develop\Git\OOP-HER\SlicingProbleem\Hond.cpp
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.i"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Develop\Git\OOP-HER\SlicingProbleem\Hond.cpp > CMakeFiles\Intro_OOP.dir\SlicingProbleem\Hond.cpp.i
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.s"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Develop\Git\OOP-HER\SlicingProbleem\Hond.cpp -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\Hond.cpp.s
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj: CMakeFiles/Intro_OOP.dir/flags.make
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj: ../SlicingProbleem/SintBernard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\SintBernard.cpp.obj -c E:\Develop\Git\OOP-HER\SlicingProbleem\SintBernard.cpp
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.i"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Develop\Git\OOP-HER\SlicingProbleem\SintBernard.cpp > CMakeFiles\Intro_OOP.dir\SlicingProbleem\SintBernard.cpp.i
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.s"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Develop\Git\OOP-HER\SlicingProbleem\SintBernard.cpp -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\SintBernard.cpp.s
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj: CMakeFiles/Intro_OOP.dir/flags.make
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj: ../SlicingProbleem/Kennel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\Kennel.cpp.obj -c E:\Develop\Git\OOP-HER\SlicingProbleem\Kennel.cpp
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.i"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Develop\Git\OOP-HER\SlicingProbleem\Kennel.cpp > CMakeFiles\Intro_OOP.dir\SlicingProbleem\Kennel.cpp.i
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.s"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Develop\Git\OOP-HER\SlicingProbleem\Kennel.cpp -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\Kennel.cpp.s
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj: CMakeFiles/Intro_OOP.dir/flags.make
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj: ../SlicingProbleem/Tekkel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\Tekkel.cpp.obj -c E:\Develop\Git\OOP-HER\SlicingProbleem\Tekkel.cpp
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.i"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Develop\Git\OOP-HER\SlicingProbleem\Tekkel.cpp > CMakeFiles\Intro_OOP.dir\SlicingProbleem\Tekkel.cpp.i
+
+CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.s"
+	E:\Develop\Toolchains\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Develop\Git\OOP-HER\SlicingProbleem\Tekkel.cpp -o CMakeFiles\Intro_OOP.dir\SlicingProbleem\Tekkel.cpp.s
+
 # Object files for target Intro_OOP
 Intro_OOP_OBJECTS = \
 "CMakeFiles/Intro_OOP.dir/main.cpp.obj" \
 "CMakeFiles/Intro_OOP.dir/Proeftoets/Ticket.cpp.obj" \
 "CMakeFiles/Intro_OOP.dir/Proeftoets/DigitaleTicket.cpp.obj" \
 "CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.obj" \
-"CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj"
+"CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj" \
+"CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj" \
+"CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj" \
+"CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj" \
+"CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj" \
+"CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj"
 
 # External object files for target Intro_OOP
 Intro_OOP_EXTERNAL_OBJECTS =
@@ -137,11 +207,16 @@ Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/Proeftoets/Ticket.cpp.obj
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/Proeftoets/DigitaleTicket.cpp.obj
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.obj
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj
+Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj
+Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj
+Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj
+Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj
+Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/build.make
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/linklibs.rsp
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/objects1.rsp
 Intro_OOP.exe: CMakeFiles/Intro_OOP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Intro_OOP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Develop\Git\OOP-HER\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Intro_OOP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Intro_OOP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

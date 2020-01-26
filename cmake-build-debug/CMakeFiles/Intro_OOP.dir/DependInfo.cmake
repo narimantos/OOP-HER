@@ -6,8 +6,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Develop/Git/OOP-HER/Proeftoets/DigitaleTicket.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/DigitaleTicket.cpp.obj"
   "E:/Develop/Git/OOP-HER/Proeftoets/PapierenTicket.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.obj"
+  "E:/Develop/Git/OOP-HER/Proeftoets/ServiceUitgave.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj"
   "E:/Develop/Git/OOP-HER/Proeftoets/Ticket.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/Ticket.cpp.obj"
   "E:/Develop/Git/OOP-HER/Proeftoets/TicketService.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj"
+  "E:/Develop/Git/OOP-HER/SlicingProbleem/Hond.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj"
+  "E:/Develop/Git/OOP-HER/SlicingProbleem/Kennel.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj"
+  "E:/Develop/Git/OOP-HER/SlicingProbleem/SintBernard.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj"
+  "E:/Develop/Git/OOP-HER/SlicingProbleem/Tekkel.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj"
   "E:/Develop/Git/OOP-HER/main.cpp" "E:/Develop/Git/OOP-HER/cmake-build-debug/CMakeFiles/Intro_OOP.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

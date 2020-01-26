@@ -92,6 +92,12 @@
 		<Unit filename="E:/Develop/Git/OOP-HER/Proeftoets/PapierenTicket.h">
 			<Option target="Intro_OOP"/>
 		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/Proeftoets/ServiceUitgave.cpp">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/Proeftoets/ServiceUitgave.h">
+			<Option target="Intro_OOP"/>
+		</Unit>
 		<Unit filename="E:/Develop/Git/OOP-HER/Proeftoets/Ticket.cpp">
 			<Option target="Intro_OOP"/>
 		</Unit>
@@ -102,6 +108,30 @@
 			<Option target="Intro_OOP"/>
 		</Unit>
 		<Unit filename="E:/Develop/Git/OOP-HER/Proeftoets/TicketService.h">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/Hond.cpp">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/Hond.h">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/Kennel.cpp">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/Kennel.h">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/SintBernard.cpp">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/SintBernard.h">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/Tekkel.cpp">
+			<Option target="Intro_OOP"/>
+		</Unit>
+		<Unit filename="E:/Develop/Git/OOP-HER/SlicingProbleem/Tekkel.h">
 			<Option target="Intro_OOP"/>
 		</Unit>
 		<Unit filename="E:/Develop/Git/OOP-HER/main.cpp">
