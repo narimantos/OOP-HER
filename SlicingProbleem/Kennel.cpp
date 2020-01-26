@@ -4,20 +4,14 @@
 
 #include "Kennel.h"
 
-Kennel::Kennel() {
-}
+Kennel::Kennel() {}
 
-void Kennel::voegHondToe(Hond & h) {
-    kennel.push_back(&h);
-}
+void Kennel::voegHondToe(Hond &h) { kennel.push_back(&h); }
 
 void Kennel::maakGeluid() {
-    for (Hond *h : kennel)
-    {
-        h->blaf();
-    }
+  for (Hond *h : kennel) {
+    h->blaf();
+  }
 }
 
-Kennel::~Kennel() {
-
-}
+Kennel::~Kennel() {}

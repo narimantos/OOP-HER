@@ -8,14 +8,13 @@
 
 class Kennel {
 private:
+  vector<Hond *> kennel;
 
-    vector<Hond *> kennel;
 public:
-    Kennel();
-    ~Kennel();
-    void voegHondToe(Hond &);
-    void maakGeluid();
+  Kennel();
+  ~Kennel();
+  void voegHondToe(Hond &);
+  void maakGeluid();
 };
 
-
-#endif //INTRO_OOP_KENNEL_H
+#endif // INTRO_OOP_KENNEL_H

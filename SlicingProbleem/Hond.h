@@ -10,11 +10,10 @@
 using namespace std;
 class Hond {
 public:
-    virtual void blaf() =0 ;
-//    {
-//        std:cout<<"WOEF"<<endl;
-//    };
+  virtual void blaf() = 0;
+  //    {
+  //        std:cout<<"WOEF"<<endl;
+  //    };
 };
 
-
-#endif //INTRO_OOP_HOND_H
+#endif // INTRO_OOP_HOND_H

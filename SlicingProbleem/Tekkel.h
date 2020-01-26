@@ -7,11 +7,8 @@
 
 #include "Hond.h"
 
-class Tekkel: public Hond {
-    virtual void blaf() {
-        std::cout<<"TEKKEL: BLAF"<<endl;
-    }
+class Tekkel : public Hond {
+  virtual void blaf() { std::cout << "TEKKEL: BLAF" << endl; }
 };
 
-
-#endif //INTRO_OOP_TEKKEL_H
+#endif // INTRO_OOP_TEKKEL_H
