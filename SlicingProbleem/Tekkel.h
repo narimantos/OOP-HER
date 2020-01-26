@@ -8,7 +8,7 @@
 #include "Hond.h"
 
 class Tekkel: public Hond {
-    virtual void blaf(){
+    virtual void blaf() {
         std::cout<<"TEKKEL: BLAF"<<endl;
     }
 };

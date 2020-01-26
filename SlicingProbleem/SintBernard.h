@@ -12,7 +12,7 @@ using namespace std;
 
 class SintBernard: public Hond {
 public:
-    virtual void blaf(){
+    virtual void blaf() {
         std::cout<<"Sint: BLAF!"<<endl;
     }
 private:

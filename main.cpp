@@ -38,7 +38,7 @@ int main() {
 
 
 
-  // DIT KAN NIET -> Hond hond(boris);
+    // DIT KAN NIET -> Hond hond(boris);
 
 
 

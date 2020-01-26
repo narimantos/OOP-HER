@@ -34,7 +34,8 @@ public:
         if (!(p->isIngechecked())) {
             p->scan();
         } else
-            std:            cout << "TICKET AL INGECHECKED!!" << "\n";
+std:
+            cout << "TICKET AL INGECHECKED!!" << "\n";
     }
 
     void voegTicketToe(T *p) {
