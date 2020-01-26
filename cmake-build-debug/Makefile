@@ -176,6 +176,33 @@ Proeftoets/PapierenTicket.cpp.s:
 	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.s
 .PHONY : Proeftoets/PapierenTicket.cpp.s
 
+Proeftoets/ServiceUitgave.obj: Proeftoets/ServiceUitgave.cpp.obj
+
+.PHONY : Proeftoets/ServiceUitgave.obj
+
+# target to build an object file
+Proeftoets/ServiceUitgave.cpp.obj:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.obj
+.PHONY : Proeftoets/ServiceUitgave.cpp.obj
+
+Proeftoets/ServiceUitgave.i: Proeftoets/ServiceUitgave.cpp.i
+
+.PHONY : Proeftoets/ServiceUitgave.i
+
+# target to preprocess a source file
+Proeftoets/ServiceUitgave.cpp.i:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.i
+.PHONY : Proeftoets/ServiceUitgave.cpp.i
+
+Proeftoets/ServiceUitgave.s: Proeftoets/ServiceUitgave.cpp.s
+
+.PHONY : Proeftoets/ServiceUitgave.s
+
+# target to generate assembly for a file
+Proeftoets/ServiceUitgave.cpp.s:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/Proeftoets/ServiceUitgave.cpp.s
+.PHONY : Proeftoets/ServiceUitgave.cpp.s
+
 Proeftoets/Ticket.obj: Proeftoets/Ticket.cpp.obj
 
 .PHONY : Proeftoets/Ticket.obj
@@ -230,6 +257,114 @@ Proeftoets/TicketService.cpp.s:
 	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.s
 .PHONY : Proeftoets/TicketService.cpp.s
 
+SlicingProbleem/Hond.obj: SlicingProbleem/Hond.cpp.obj
+
+.PHONY : SlicingProbleem/Hond.obj
+
+# target to build an object file
+SlicingProbleem/Hond.cpp.obj:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.obj
+.PHONY : SlicingProbleem/Hond.cpp.obj
+
+SlicingProbleem/Hond.i: SlicingProbleem/Hond.cpp.i
+
+.PHONY : SlicingProbleem/Hond.i
+
+# target to preprocess a source file
+SlicingProbleem/Hond.cpp.i:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.i
+.PHONY : SlicingProbleem/Hond.cpp.i
+
+SlicingProbleem/Hond.s: SlicingProbleem/Hond.cpp.s
+
+.PHONY : SlicingProbleem/Hond.s
+
+# target to generate assembly for a file
+SlicingProbleem/Hond.cpp.s:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Hond.cpp.s
+.PHONY : SlicingProbleem/Hond.cpp.s
+
+SlicingProbleem/Kennel.obj: SlicingProbleem/Kennel.cpp.obj
+
+.PHONY : SlicingProbleem/Kennel.obj
+
+# target to build an object file
+SlicingProbleem/Kennel.cpp.obj:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.obj
+.PHONY : SlicingProbleem/Kennel.cpp.obj
+
+SlicingProbleem/Kennel.i: SlicingProbleem/Kennel.cpp.i
+
+.PHONY : SlicingProbleem/Kennel.i
+
+# target to preprocess a source file
+SlicingProbleem/Kennel.cpp.i:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.i
+.PHONY : SlicingProbleem/Kennel.cpp.i
+
+SlicingProbleem/Kennel.s: SlicingProbleem/Kennel.cpp.s
+
+.PHONY : SlicingProbleem/Kennel.s
+
+# target to generate assembly for a file
+SlicingProbleem/Kennel.cpp.s:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Kennel.cpp.s
+.PHONY : SlicingProbleem/Kennel.cpp.s
+
+SlicingProbleem/SintBernard.obj: SlicingProbleem/SintBernard.cpp.obj
+
+.PHONY : SlicingProbleem/SintBernard.obj
+
+# target to build an object file
+SlicingProbleem/SintBernard.cpp.obj:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.obj
+.PHONY : SlicingProbleem/SintBernard.cpp.obj
+
+SlicingProbleem/SintBernard.i: SlicingProbleem/SintBernard.cpp.i
+
+.PHONY : SlicingProbleem/SintBernard.i
+
+# target to preprocess a source file
+SlicingProbleem/SintBernard.cpp.i:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.i
+.PHONY : SlicingProbleem/SintBernard.cpp.i
+
+SlicingProbleem/SintBernard.s: SlicingProbleem/SintBernard.cpp.s
+
+.PHONY : SlicingProbleem/SintBernard.s
+
+# target to generate assembly for a file
+SlicingProbleem/SintBernard.cpp.s:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/SintBernard.cpp.s
+.PHONY : SlicingProbleem/SintBernard.cpp.s
+
+SlicingProbleem/Tekkel.obj: SlicingProbleem/Tekkel.cpp.obj
+
+.PHONY : SlicingProbleem/Tekkel.obj
+
+# target to build an object file
+SlicingProbleem/Tekkel.cpp.obj:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.obj
+.PHONY : SlicingProbleem/Tekkel.cpp.obj
+
+SlicingProbleem/Tekkel.i: SlicingProbleem/Tekkel.cpp.i
+
+.PHONY : SlicingProbleem/Tekkel.i
+
+# target to preprocess a source file
+SlicingProbleem/Tekkel.cpp.i:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.i
+.PHONY : SlicingProbleem/Tekkel.cpp.i
+
+SlicingProbleem/Tekkel.s: SlicingProbleem/Tekkel.cpp.s
+
+.PHONY : SlicingProbleem/Tekkel.s
+
+# target to generate assembly for a file
+SlicingProbleem/Tekkel.cpp.s:
+	$(MAKE) -f CMakeFiles\Intro_OOP.dir\build.make CMakeFiles/Intro_OOP.dir/SlicingProbleem/Tekkel.cpp.s
+.PHONY : SlicingProbleem/Tekkel.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -272,12 +407,27 @@ help:
 	@echo ... Proeftoets/PapierenTicket.obj
 	@echo ... Proeftoets/PapierenTicket.i
 	@echo ... Proeftoets/PapierenTicket.s
+	@echo ... Proeftoets/ServiceUitgave.obj
+	@echo ... Proeftoets/ServiceUitgave.i
+	@echo ... Proeftoets/ServiceUitgave.s
 	@echo ... Proeftoets/Ticket.obj
 	@echo ... Proeftoets/Ticket.i
 	@echo ... Proeftoets/Ticket.s
 	@echo ... Proeftoets/TicketService.obj
 	@echo ... Proeftoets/TicketService.i
 	@echo ... Proeftoets/TicketService.s
+	@echo ... SlicingProbleem/Hond.obj
+	@echo ... SlicingProbleem/Hond.i
+	@echo ... SlicingProbleem/Hond.s
+	@echo ... SlicingProbleem/Kennel.obj
+	@echo ... SlicingProbleem/Kennel.i
+	@echo ... SlicingProbleem/Kennel.s
+	@echo ... SlicingProbleem/SintBernard.obj
+	@echo ... SlicingProbleem/SintBernard.i
+	@echo ... SlicingProbleem/SintBernard.s
+	@echo ... SlicingProbleem/Tekkel.obj
+	@echo ... SlicingProbleem/Tekkel.i
+	@echo ... SlicingProbleem/Tekkel.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

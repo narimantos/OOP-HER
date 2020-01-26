@@ -60,7 +60,7 @@ int main()
 }
 ```
 
-![alt](./Images/Class-diagram.PNG)
+![alt](../Images/Class-diagram.PNG)
 
 
 # opgave 1
@@ -90,7 +90,8 @@ int main()
 1.  Geef de implementatie (programmacode) van de methode ```void voegTicketToe(Ticket*);``` van de klasse ```TicketService```<details> <summary></summary> ``` void TicketService::voegTicketToe(Ticket *t) {
     registratie.push_back(t); }``` </details>
 
-1.  Geef de implementatie (programmacode) van de constructor van de klasse ```PapierenTicket```.<details> <summary></summary> ``` PapierenTicket::PapierenTicket(int barcode, int ticketnummer) : Ticket(ticketnummer), barcode(barcode) {} ``` </details>
+1.  Geef de implementatie (programmacode) van de constructor van de klasse ```PapierenTicket```.<details> <summary></summary> <p>
+```PapierenTicket::PapierenTicket(int barcode, int ticketnummer) : Ticket(ticketnummer), barcode barcode) {} ``` </P> </details>
 
 1.  De methode ```int aantalNietIngechecked()const;``` van de klasse ```TicketService``` geeft het aantal tickets die niet ingechecked zijn mee terug. Geef de implementatie (programmacode) van de methode ```int aantalNietIngechecked()const;``` van de klasse ```TicketService```.<details> <summary></summary> ``` int TicketService::aantalNietIngechecked() const {
     int i = 0;
@@ -179,6 +180,6 @@ Een hacker wil een papieren ticket kopiëren. Dat kan door het resetten van tick
 In de klasse ```TicketService``` wordt de methode ```void copyPapierenTicket(PapierenTicket*)``` anders ingevuld. Als eerste wordt gecontroleerd of de meegeven ```papierenticket``` al is ingechecked. Is dit zo, dan kan een copy gemaakt worden. Anders gebeurt er niets en wordt een 0 mee teruggegeven. Om een ```papierenticket``` te kopiëren wordt als eerste de waarde ```ingechecked gereset```. Hierna
 wordt de ticket gekopieerd. Hieronder het scenario voor een ticket dat al ingechecked is
 
-![alt](./Images/Sequentie-diagram.PNG)
+![alt](../Images/Sequentie-diagram.PNG)
 1. Geef de implementatie (programmacode) van de methode ```Ticket* copyPapierenTicket(PapierenTicket*)``` van de klasse ```TicketService``` (10 punten) 
 

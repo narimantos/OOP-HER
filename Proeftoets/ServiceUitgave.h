@@ -13,15 +13,14 @@
 
 using namespace std;
 
-template<typename T>
-class ServiceUitgave {
+template<typename T> class ServiceUitgave {
 private:
 
     vector<T *> registratie;
     int aantalAangemaakteTickets = 0;
     string bureau;
 
-    ServiceUitgave &operator=(const ServiceUitgave &t) {
+    ServiceUitgave &operator=(const T &t) {
         return *this;
     };
 
@@ -35,8 +34,7 @@ public:
         if (!(p->isIngechecked())) {
             p->scan();
         } else
-            std:
-            cout << "TICKET AL INGECHECKED!!" << "\n";
+            std:            cout << "TICKET AL INGECHECKED!!" << "\n";
     }
 
     void voegTicketToe(T *p) {

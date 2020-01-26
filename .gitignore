@@ -3,3 +3,23 @@
 *.cmake
 
 cmake-build-debug/CMakeFiles/Intro_OOP.dir/main.cpp.obj
+.idea/workspace.xml
+.idea/workspace.xml
+cmake-build-debug/Intro_OOP.cbp
+cmake-build-debug/Intro_OOP.exe
+cmake-build-debug/CMakeFiles/clion-log.txt
+cmake-build-debug/CMakeFiles/Makefile.cmake
+cmake-build-debug/CMakeFiles/Makefile2
+cmake-build-debug/CMakeFiles/progress.marks
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/build.make
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/cmake_clean.cmake
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/CXX.includecache
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/depend.internal
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/depend.make
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/DependInfo.cmake
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/main.cpp.obj
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/objects.a
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/objects1.rsp
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/progress.make
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/PapierenTicket.cpp.obj
+cmake-build-debug/CMakeFiles/Intro_OOP.dir/Proeftoets/TicketService.cpp.obj
